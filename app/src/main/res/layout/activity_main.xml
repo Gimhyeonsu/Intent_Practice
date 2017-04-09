@@ -14,11 +14,19 @@
         android:text="메인화면" />
 
     <Button
-        android:onClick="onClick"
         android:id="@+id/id_main_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:onClick="onClick"
         android:text="새화면 띄우기" />
+
+    <Button
+        android:id="@+id/id_intent_move_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onClick"
+        android:text="인텐트 화면으로 이동" />
 
 </LinearLayout>

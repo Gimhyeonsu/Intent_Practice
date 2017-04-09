@@ -21,6 +21,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         intent.putExtra("title", "소녀시대");
         startActivityForResult(intent, 1001);
 
+        Intent intentMove = new Intent(this, IntentActivity.class);
+        startActivity(intentMove);
+
     }
 
     @Override
